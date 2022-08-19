@@ -8,14 +8,14 @@ const AsideChannels = () => {
     useEffect(() => {
         const fetchChannels = async () => {
             const data = await directus.items("collection");
-            const channels = await (await data.readByQuery({
+            const channels = await data.readByQuery({
                 filter: {
                     "type": {
                         "_eq": "channel"
                     }
                 },
                 limit: -1
-            }));
+            });
             setChannels(channels.data);
             console.log(channels.data);
         }
