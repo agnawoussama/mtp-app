@@ -1,6 +1,6 @@
 import ChannelPreview from "./ChannelPreview";
 import { useState, useEffect } from "react";
-import { directus } from "../../../../../services/directus";
+import { directus } from "../../../../services/directus";
 import { Link } from "react-router-dom";
 
 const ListChannels = () => {

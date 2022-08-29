@@ -8,6 +8,9 @@ module.exports = {
       width: {
         'asideSpc': '350px'
       },
+      flex:{
+        '3': '3 1 0%'
+      },
       colors: {
         'asideBg': 'rgb(237, 242, 247)',
         'homeIcon': 'rgb(78, 92, 110)',

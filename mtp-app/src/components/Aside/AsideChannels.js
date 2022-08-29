@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
-import { directus } from "../../../services/directus";
+import { directus } from "../../services/directus";
 
 const AsideChannels = () => {
     const [channels, setChannels] = useState([]);
