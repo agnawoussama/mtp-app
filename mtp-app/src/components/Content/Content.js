@@ -4,7 +4,7 @@ import Main from "./Main/Main";
 const Content = () => {
     return ( 
         <div className="content w-full">
-            <Header />
+            {/* <Header /> */}
             <Main />
         </div>
      );
